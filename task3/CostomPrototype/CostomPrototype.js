@@ -6,7 +6,6 @@ Array.prototype.myCustomFilter = function (c) {
             filtered.push(this[i]);
         }
     }
-
     return filtered;
 };
 const data = [10, 20, 30, 40, 50];
